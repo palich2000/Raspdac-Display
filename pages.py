@@ -156,8 +156,8 @@ PAGES_Stop = {
         'lines': [
           {
             'name':"top",
-            'variables': [ "current_tempc", "disk_availp" ],
-            'format':"Temp: {0}c / Disk {1}% full",
+            'variables': [ "current_tempc", "current_ip"],
+            'format':"Temp: {0}c / IP: {1}",
             'justification':"left",
             'scroll':True
           },

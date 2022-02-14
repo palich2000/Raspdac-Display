@@ -1,0 +1,12 @@
+[Unit]
+Description=Audiophonics OLED start service
+After=cpufrequtils.service
+
+[Service]
+ExecStart=/usr/bin/python2 /home/volumio/16x2_oled_volumio_start.py
+RemainAfterExit=true
+Type=oneshot
+
+[Install]
+WantedBy=default.target
+
